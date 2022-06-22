@@ -1,0 +1,27 @@
+.header {
+    grid-area: header;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    background-color: #4D4C7D;
+    text-align: center;
+    color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 0.40em;
+    }
+
+    p {
+        border: solid 2px #E9D5CA;
+        border-radius: 10px;
+        max-width: 50%;
+
+        font-size: 1em;
+        margin: auto;
+    }
+}

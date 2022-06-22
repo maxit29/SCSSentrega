@@ -1,0 +1,52 @@
+.section2 {
+    grid-area: section2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+
+    a {
+        .buttonStyle {
+            font-size: 2em;
+            background-image: linear-gradient(to left, #4D4C7D, #827397);
+            color: rgb(0, 0, 0);
+            background-color: #E9D5CA;
+            border-radius: 35px;
+            padding: 1em;
+            font-weight: bold;
+            transition: 1s;
+
+            &:hover {
+                font-size: 2em;
+                background-color: rgb(209, 13, 105);
+                color: white;
+                cursor: pointer;
+                transform: scale(1.2);
+
+            }
+        }
+    }
+
+    .articleMod2 {
+        display: flex;
+        padding: 2em;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        align-items: center;
+
+        img {
+            width: 40em;
+        }
+
+        .pSize3 {
+            font-size: 1.8em;
+            font-weight: 700;
+            text-align: center;
+            margin-left: 1.5em;
+            margin-right: 3.5em;
+            border: solid black 2px;
+            padding: 1em;
+        }
+    }
+}

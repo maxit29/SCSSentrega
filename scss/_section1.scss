@@ -1,0 +1,43 @@
+.section1 {
+    grid-area: section1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+
+    article {
+        .pSize1 {
+            font-size: 1.5em;
+            font-weight: 700;
+            text-align: center;
+            margin-left: 1.5em;
+            margin-bottom: 1em;
+        }
+    }
+
+    .articleImg1 {
+        display: flex;
+        margin-top: 1em;
+        padding: 2em;
+        align-items: center;
+
+        .pSize2 {
+            font-size: 1.8em;
+            font-weight: 700;
+            text-align: center;
+            margin-left: 1.5em;
+            margin-right: 3.5em;
+            border: solid black 2px;
+            padding: 1em;
+        }
+
+        .imgSize1 {
+            width: 40em;
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+    }
+
+}

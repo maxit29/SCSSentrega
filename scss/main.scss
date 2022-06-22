@@ -1,0 +1,42 @@
+@import './generales';
+
+.grilla {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr;
+
+    grid-template-areas:
+        "nav header header "
+        "nav section1 section1 "
+        "nav section1 section1 "
+        "nav section2 section2 "
+        "footer footer footer ";
+    @import './nav';
+    @import './header';
+    @import './section1';
+    @import './section2';
+    @import './footer';
+}
+@import './media-queries';
+
+
+
+
+
+
+@keyframes girando {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

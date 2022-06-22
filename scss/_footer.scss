@@ -1,0 +1,35 @@
+
+    .footer {
+        grid-area: footer;
+        display: flex;
+        background-color: #827397;
+        align-items: center;
+        text-align: center;
+
+        .divFooterMod2 {
+            margin-left: 1.8em;
+
+            p {
+                font-size: 1em;
+                margin-bottom: 1em;
+                color: white;
+                font-weight: 700;
+            }
+
+            a img {
+                width: 40px;
+            }
+        }
+
+        .divFooterMod1 {
+            margin-left: 44.8em;
+
+            img {
+                width: 150px;
+            }
+
+            h4 {
+                font-weight: bold;
+            }
+        }
+    }
